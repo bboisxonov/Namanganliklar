@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+}
+
+.main_header{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+ }
+
+.section1{
+   background-color: #FFFFFF;
+   display: flex;
+   flex-direction: column;
+}
+
+.input_size{
+   height:  50px;
+   width: 600px;
+   background: #F1F1F1;
+   opacity: 0.3;
+   border: 2px solid #285193;
+   box-sizing: border-box;
+   border-radius: 5px;
+}
+.last{
+   width: 220px;
+}
+.verification_code{
+   display: flex;
+   align-items: center;
+}
+
+.code{
+   margin-left: 20px;
+}
+
+.Отправить{
+   background: #295093;
+   border: 2px solid rgba(40, 81, 147, 0.54);
+   box-sizing: border-box;
+   border-radius: 5px;
+   font-family: Rubik;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 21px;
+   color: #FFFFFF;
+   width: 220px;
+   height: 50px;
+}
+textarea{
+   width: 600px;
+   background: #F1F1F1;
+   opacity: 0.3;
+   border: 2px solid #285193;
+   box-sizing: border-box;
+   border-radius: 5px;
+}
+
+.section2{
+   background: rgba(41, 80, 145, 0.16);
+   box-shadow: 0px 8px 9px rgba(57, 57, 57, 0.25);
+   border-radius: 5px;
+   margin-top: 5%;
+   background: #FFFFFF;
+   border: 2px solid #BCC3CD;
+   box-sizing: border-box;
+   border-radius: 5px;
+   width: 800px;
+   height: 340px;
+   display: inline-block;
+}
+
+.section2_text{
+   font-family: Rubik;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 28px;
+   line-height: 33px;
+   color: #295091;
+   text-transform: uppercase;
+   text-align: right;
+   margin-right: 10px;
+
+}
+
+.section > p{
+   font-family: Rubik;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 21px;
+   color: #888888;
+}
+
+.qator{
+   margin-left: 10px; 
+   margin-right: 10px; 
+   box-sizing: border-box;
+   display: flex;
+   justify-content: space-between;
+}
+
+.logotips{
+   width: 32px;
+   height: 32px;
+}
+
+.follow_img{
+   width: 150px;
+   height: 33px;
+   border-radius: 5px;
+   cursor: pointer;
+   border: none;
+}
+
+.app_markets_logo{
+    width: 111px;
+    height:  
+    33px;
+}
